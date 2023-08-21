@@ -24,8 +24,8 @@
                         <form action = "/board/modify" method = "post">
                         
                         <!-- 수정시에도 현재 페이지를 유지하기 위해서 관련 데이터를 넘겨주기 위해서 -->
-                        <input type='hidden' name='pageNum' value='<c:out value="${cr.pageNum}"/>'>
-                        <input type='hidden' name='amount' value='<c:out value="${cr.amount}"/>'>
+                        <input type='hidden' name='pageNum' value='<c:out value="${cri.pageNum}"/>'>
+                        <input type='hidden' name='amount' value='<c:out value="${cri.amount}"/>'>
                         
 	                        <div class="form-group">
 		                        <label>Bno</label>
@@ -91,5 +91,9 @@
 										formObj.submit();
 									});
 							</script>
-
+</div>
+</div>
+</div>
+</div>
+</div>
 <%@include file="../includes/footer.jsp"%>
